@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 
-function About() {
+function WhyUs() {
   return (
     <div>
       <Nav />
-      <h1>About Us</h1>
+      <h1>Why Us</h1>
     </div>
   );
 }
 
-export default About;
+export default WhyUs;

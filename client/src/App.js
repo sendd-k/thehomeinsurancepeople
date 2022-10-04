@@ -2,7 +2,7 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
+import WhyUs from "./components/WhyUs";
 import BC from "./components/BC";
 import AB from "./components/AB";
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/whyus" element={<WhyUs />} />
         <Route path="/britishcolumbia" element={<BC />} />
         <Route path="/alberta" element={<AB />} />
       </Routes>

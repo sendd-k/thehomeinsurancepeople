@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   font-family: "Nunito", sans-serif;
   color: #fff;
@@ -6,4 +10,18 @@
 ul {
   list-style: none;
   padding: 0;
+}
+
+h1 {
+  color: #3f4444;
+}
+
+h2 {
+  color: #fe8b01;
+  font-size: 30px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
